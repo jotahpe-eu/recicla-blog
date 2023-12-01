@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    /* background-color: #212529; */
+    background-color: #fff;
+}
+
+.selectable-card {
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.selectable-card:hover {
+    background-color: #f8f9fa; /* Altere a cor conforme necessário */
+}
